@@ -1,0 +1,14 @@
+/home/erian/opencv_code/DisplayImage/CMakeFiles/edit_cache.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/canny.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/rebuild_cache.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/pyramid_gaussian.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/erosion_dilation.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/2dfilter.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/hough_line.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/cvt_gray_image.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/show_happy_fish.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/DisplayImage.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/morphology.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/threshold.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/sobel.dir
+/home/erian/opencv_code/DisplayImage/CMakeFiles/laplacian.dir
