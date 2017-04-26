@@ -60,261 +60,335 @@ CMAKE_SOURCE_DIR = /home/erian/opencv_code/DisplayImage
 CMAKE_BINARY_DIR = /home/erian/opencv_code/DisplayImage
 
 #=============================================================================
-# Target rules for target CMakeFiles/canny.dir
+# Target rules for target CMakeFiles/point_contour.dir
 
 # All Build rule for target.
-CMakeFiles/canny.dir/all:
-	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/depend
-	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=5,6 "Built target canny"
-.PHONY : CMakeFiles/canny.dir/all
+CMakeFiles/point_contour.dir/all:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/depend
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=37,38 "Built target point_contour"
+.PHONY : CMakeFiles/point_contour.dir/all
 
 # Include target in all.
-all: CMakeFiles/canny.dir/all
+all: CMakeFiles/point_contour.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/canny.dir/rule: cmake_check_build_system
+CMakeFiles/point_contour.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/canny.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/point_contour.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/canny.dir/rule
+.PHONY : CMakeFiles/point_contour.dir/rule
 
 # Convenience name for target.
-canny: CMakeFiles/canny.dir/rule
+point_contour: CMakeFiles/point_contour.dir/rule
 
-.PHONY : canny
-
-# clean rule for target.
-CMakeFiles/canny.dir/clean:
-	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/clean
-.PHONY : CMakeFiles/canny.dir/clean
+.PHONY : point_contour
 
 # clean rule for target.
-clean: CMakeFiles/canny.dir/clean
+CMakeFiles/point_contour.dir/clean:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/clean
+.PHONY : CMakeFiles/point_contour.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/point_contour.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pyramid_gaussian.dir
+# Target rules for target CMakeFiles/laplacian.dir
 
 # All Build rule for target.
-CMakeFiles/pyramid_gaussian.dir/all:
-	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/depend
-	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=17,18 "Built target pyramid_gaussian"
-.PHONY : CMakeFiles/pyramid_gaussian.dir/all
+CMakeFiles/laplacian.dir/all:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/depend
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=31,32 "Built target laplacian"
+.PHONY : CMakeFiles/laplacian.dir/all
 
 # Include target in all.
-all: CMakeFiles/pyramid_gaussian.dir/all
+all: CMakeFiles/laplacian.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pyramid_gaussian.dir/rule: cmake_check_build_system
+CMakeFiles/laplacian.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pyramid_gaussian.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/laplacian.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/pyramid_gaussian.dir/rule
+.PHONY : CMakeFiles/laplacian.dir/rule
 
 # Convenience name for target.
-pyramid_gaussian: CMakeFiles/pyramid_gaussian.dir/rule
+laplacian: CMakeFiles/laplacian.dir/rule
 
-.PHONY : pyramid_gaussian
-
-# clean rule for target.
-CMakeFiles/pyramid_gaussian.dir/clean:
-	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/clean
-.PHONY : CMakeFiles/pyramid_gaussian.dir/clean
+.PHONY : laplacian
 
 # clean rule for target.
-clean: CMakeFiles/pyramid_gaussian.dir/clean
+CMakeFiles/laplacian.dir/clean:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/clean
+.PHONY : CMakeFiles/laplacian.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/laplacian.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/erosion_dilation.dir
+# Target rules for target CMakeFiles/sobel.dir
 
 # All Build rule for target.
-CMakeFiles/erosion_dilation.dir/all:
-	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/depend
-	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=9,10 "Built target erosion_dilation"
-.PHONY : CMakeFiles/erosion_dilation.dir/all
+CMakeFiles/sobel.dir/all:
+	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
+	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=43,44 "Built target sobel"
+.PHONY : CMakeFiles/sobel.dir/all
 
 # Include target in all.
-all: CMakeFiles/erosion_dilation.dir/all
+all: CMakeFiles/sobel.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/erosion_dilation.dir/rule: cmake_check_build_system
+CMakeFiles/sobel.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/erosion_dilation.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sobel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/erosion_dilation.dir/rule
+.PHONY : CMakeFiles/sobel.dir/rule
 
 # Convenience name for target.
-erosion_dilation: CMakeFiles/erosion_dilation.dir/rule
+sobel: CMakeFiles/sobel.dir/rule
 
-.PHONY : erosion_dilation
-
-# clean rule for target.
-CMakeFiles/erosion_dilation.dir/clean:
-	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/clean
-.PHONY : CMakeFiles/erosion_dilation.dir/clean
+.PHONY : sobel
 
 # clean rule for target.
-clean: CMakeFiles/erosion_dilation.dir/clean
+CMakeFiles/sobel.dir/clean:
+	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/clean
+.PHONY : CMakeFiles/sobel.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/sobel.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/2dfilter.dir
+# Target rules for target CMakeFiles/threshold.dir
 
 # All Build rule for target.
-CMakeFiles/2dfilter.dir/all:
-	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/depend
-	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=1,2 "Built target 2dfilter"
-.PHONY : CMakeFiles/2dfilter.dir/all
+CMakeFiles/threshold.dir/all:
+	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/depend
+	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=49,50 "Built target threshold"
+.PHONY : CMakeFiles/threshold.dir/all
 
 # Include target in all.
-all: CMakeFiles/2dfilter.dir/all
+all: CMakeFiles/threshold.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/2dfilter.dir/rule: cmake_check_build_system
+CMakeFiles/threshold.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2dfilter.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threshold.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/2dfilter.dir/rule
+.PHONY : CMakeFiles/threshold.dir/rule
 
 # Convenience name for target.
-2dfilter: CMakeFiles/2dfilter.dir/rule
+threshold: CMakeFiles/threshold.dir/rule
 
-.PHONY : 2dfilter
-
-# clean rule for target.
-CMakeFiles/2dfilter.dir/clean:
-	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/clean
-.PHONY : CMakeFiles/2dfilter.dir/clean
+.PHONY : threshold
 
 # clean rule for target.
-clean: CMakeFiles/2dfilter.dir/clean
+CMakeFiles/threshold.dir/clean:
+	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/clean
+.PHONY : CMakeFiles/threshold.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/threshold.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hough_line.dir
+# Target rules for target CMakeFiles/backprojection.dir
 
 # All Build rule for target.
-CMakeFiles/hough_line.dir/all:
-	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/depend
-	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=11,12 "Built target hough_line"
-.PHONY : CMakeFiles/hough_line.dir/all
+CMakeFiles/backprojection.dir/all:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/depend
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=7,8 "Built target backprojection"
+.PHONY : CMakeFiles/backprojection.dir/all
 
 # Include target in all.
-all: CMakeFiles/hough_line.dir/all
+all: CMakeFiles/backprojection.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hough_line.dir/rule: cmake_check_build_system
+CMakeFiles/backprojection.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hough_line.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/backprojection.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/hough_line.dir/rule
+.PHONY : CMakeFiles/backprojection.dir/rule
 
 # Convenience name for target.
-hough_line: CMakeFiles/hough_line.dir/rule
+backprojection: CMakeFiles/backprojection.dir/rule
 
-.PHONY : hough_line
-
-# clean rule for target.
-CMakeFiles/hough_line.dir/clean:
-	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/clean
-.PHONY : CMakeFiles/hough_line.dir/clean
+.PHONY : backprojection
 
 # clean rule for target.
-clean: CMakeFiles/hough_line.dir/clean
+CMakeFiles/backprojection.dir/clean:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/clean
+.PHONY : CMakeFiles/backprojection.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/backprojection.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cvt_gray_image.dir
+# Target rules for target CMakeFiles/morphology.dir
 
 # All Build rule for target.
-CMakeFiles/cvt_gray_image.dir/all:
-	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/depend
-	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=7,8 "Built target cvt_gray_image"
-.PHONY : CMakeFiles/cvt_gray_image.dir/all
+CMakeFiles/morphology.dir/all:
+	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/depend
+	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=35,36 "Built target morphology"
+.PHONY : CMakeFiles/morphology.dir/all
 
 # Include target in all.
-all: CMakeFiles/cvt_gray_image.dir/all
+all: CMakeFiles/morphology.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cvt_gray_image.dir/rule: cmake_check_build_system
+CMakeFiles/morphology.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cvt_gray_image.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/morphology.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/cvt_gray_image.dir/rule
+.PHONY : CMakeFiles/morphology.dir/rule
 
 # Convenience name for target.
-cvt_gray_image: CMakeFiles/cvt_gray_image.dir/rule
+morphology: CMakeFiles/morphology.dir/rule
 
-.PHONY : cvt_gray_image
-
-# clean rule for target.
-CMakeFiles/cvt_gray_image.dir/clean:
-	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/clean
-.PHONY : CMakeFiles/cvt_gray_image.dir/clean
+.PHONY : morphology
 
 # clean rule for target.
-clean: CMakeFiles/cvt_gray_image.dir/clean
+CMakeFiles/morphology.dir/clean:
+	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/clean
+.PHONY : CMakeFiles/morphology.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/morphology.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/show_happy_fish.dir
+# Target rules for target CMakeFiles/cal_hist.dir
 
 # All Build rule for target.
-CMakeFiles/show_happy_fish.dir/all:
-	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/depend
-	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=19,20 "Built target show_happy_fish"
-.PHONY : CMakeFiles/show_happy_fish.dir/all
+CMakeFiles/cal_hist.dir/all:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/depend
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=13,14 "Built target cal_hist"
+.PHONY : CMakeFiles/cal_hist.dir/all
 
 # Include target in all.
-all: CMakeFiles/show_happy_fish.dir/all
+all: CMakeFiles/cal_hist.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/show_happy_fish.dir/rule: cmake_check_build_system
+CMakeFiles/cal_hist.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/show_happy_fish.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cal_hist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/show_happy_fish.dir/rule
+.PHONY : CMakeFiles/cal_hist.dir/rule
 
 # Convenience name for target.
-show_happy_fish: CMakeFiles/show_happy_fish.dir/rule
+cal_hist: CMakeFiles/cal_hist.dir/rule
 
-.PHONY : show_happy_fish
-
-# clean rule for target.
-CMakeFiles/show_happy_fish.dir/clean:
-	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/clean
-.PHONY : CMakeFiles/show_happy_fish.dir/clean
+.PHONY : cal_hist
 
 # clean rule for target.
-clean: CMakeFiles/show_happy_fish.dir/clean
+CMakeFiles/cal_hist.dir/clean:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/clean
+.PHONY : CMakeFiles/cal_hist.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cal_hist.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/histogram_comparison.dir
+
+# All Build rule for target.
+CMakeFiles/histogram_comparison.dir/all:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/depend
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=25,26 "Built target histogram_comparison"
+.PHONY : CMakeFiles/histogram_comparison.dir/all
+
+# Include target in all.
+all: CMakeFiles/histogram_comparison.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/histogram_comparison.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/histogram_comparison.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/histogram_comparison.dir/rule
+
+# Convenience name for target.
+histogram_comparison: CMakeFiles/histogram_comparison.dir/rule
+
+.PHONY : histogram_comparison
+
+# clean rule for target.
+CMakeFiles/histogram_comparison.dir/clean:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/clean
+.PHONY : CMakeFiles/histogram_comparison.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/histogram_comparison.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/moments.dir
+
+# All Build rule for target.
+CMakeFiles/moments.dir/all:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/depend
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=33,34 "Built target moments"
+.PHONY : CMakeFiles/moments.dir/all
+
+# Include target in all.
+all: CMakeFiles/moments.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/moments.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/moments.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/moments.dir/rule
+
+# Convenience name for target.
+moments: CMakeFiles/moments.dir/rule
+
+.PHONY : moments
+
+# clean rule for target.
+CMakeFiles/moments.dir/clean:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/clean
+.PHONY : CMakeFiles/moments.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/moments.dir/clean
 
 .PHONY : clean
 
@@ -356,150 +430,557 @@ clean: CMakeFiles/DisplayImage.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/morphology.dir
+# Target rules for target CMakeFiles/cvt_gray_image.dir
 
 # All Build rule for target.
-CMakeFiles/morphology.dir/all:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/depend
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=15,16 "Built target morphology"
-.PHONY : CMakeFiles/morphology.dir/all
+CMakeFiles/cvt_gray_image.dir/all:
+	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/depend
+	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=21,22 "Built target cvt_gray_image"
+.PHONY : CMakeFiles/cvt_gray_image.dir/all
 
 # Include target in all.
-all: CMakeFiles/morphology.dir/all
+all: CMakeFiles/cvt_gray_image.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/morphology.dir/rule: cmake_check_build_system
+CMakeFiles/cvt_gray_image.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/morphology.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cvt_gray_image.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/morphology.dir/rule
+.PHONY : CMakeFiles/cvt_gray_image.dir/rule
 
 # Convenience name for target.
-morphology: CMakeFiles/morphology.dir/rule
+cvt_gray_image: CMakeFiles/cvt_gray_image.dir/rule
 
-.PHONY : morphology
-
-# clean rule for target.
-CMakeFiles/morphology.dir/clean:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/clean
-.PHONY : CMakeFiles/morphology.dir/clean
+.PHONY : cvt_gray_image
 
 # clean rule for target.
-clean: CMakeFiles/morphology.dir/clean
+CMakeFiles/cvt_gray_image.dir/clean:
+	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/clean
+.PHONY : CMakeFiles/cvt_gray_image.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cvt_gray_image.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/threshold.dir
+# Target rules for target CMakeFiles/hough_line.dir
 
 # All Build rule for target.
-CMakeFiles/threshold.dir/all:
-	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/depend
-	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=23,24 "Built target threshold"
-.PHONY : CMakeFiles/threshold.dir/all
+CMakeFiles/hough_line.dir/all:
+	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/depend
+	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=29,30 "Built target hough_line"
+.PHONY : CMakeFiles/hough_line.dir/all
 
 # Include target in all.
-all: CMakeFiles/threshold.dir/all
+all: CMakeFiles/hough_line.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/threshold.dir/rule: cmake_check_build_system
+CMakeFiles/hough_line.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threshold.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hough_line.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/threshold.dir/rule
+.PHONY : CMakeFiles/hough_line.dir/rule
 
 # Convenience name for target.
-threshold: CMakeFiles/threshold.dir/rule
+hough_line: CMakeFiles/hough_line.dir/rule
 
-.PHONY : threshold
-
-# clean rule for target.
-CMakeFiles/threshold.dir/clean:
-	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/clean
-.PHONY : CMakeFiles/threshold.dir/clean
+.PHONY : hough_line
 
 # clean rule for target.
-clean: CMakeFiles/threshold.dir/clean
+CMakeFiles/hough_line.dir/clean:
+	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/clean
+.PHONY : CMakeFiles/hough_line.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/hough_line.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sobel.dir
+# Target rules for target CMakeFiles/affine_transform.dir
 
 # All Build rule for target.
-CMakeFiles/sobel.dir/all:
-	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
-	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=21,22 "Built target sobel"
-.PHONY : CMakeFiles/sobel.dir/all
+CMakeFiles/affine_transform.dir/all:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/depend
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=5,6 "Built target affine_transform"
+.PHONY : CMakeFiles/affine_transform.dir/all
 
 # Include target in all.
-all: CMakeFiles/sobel.dir/all
+all: CMakeFiles/affine_transform.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sobel.dir/rule: cmake_check_build_system
+CMakeFiles/affine_transform.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sobel.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/affine_transform.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/sobel.dir/rule
+.PHONY : CMakeFiles/affine_transform.dir/rule
 
 # Convenience name for target.
-sobel: CMakeFiles/sobel.dir/rule
+affine_transform: CMakeFiles/affine_transform.dir/rule
 
-.PHONY : sobel
-
-# clean rule for target.
-CMakeFiles/sobel.dir/clean:
-	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/clean
-.PHONY : CMakeFiles/sobel.dir/clean
+.PHONY : affine_transform
 
 # clean rule for target.
-clean: CMakeFiles/sobel.dir/clean
+CMakeFiles/affine_transform.dir/clean:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/clean
+.PHONY : CMakeFiles/affine_transform.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/affine_transform.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/laplacian.dir
+# Target rules for target CMakeFiles/2dfilter.dir
 
 # All Build rule for target.
-CMakeFiles/laplacian.dir/all:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/depend
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=13,14 "Built target laplacian"
-.PHONY : CMakeFiles/laplacian.dir/all
+CMakeFiles/2dfilter.dir/all:
+	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/depend
+	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=1,2 "Built target 2dfilter"
+.PHONY : CMakeFiles/2dfilter.dir/all
 
 # Include target in all.
-all: CMakeFiles/laplacian.dir/all
+all: CMakeFiles/2dfilter.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/laplacian.dir/rule: cmake_check_build_system
+CMakeFiles/2dfilter.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/laplacian.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/2dfilter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
-.PHONY : CMakeFiles/laplacian.dir/rule
+.PHONY : CMakeFiles/2dfilter.dir/rule
 
 # Convenience name for target.
-laplacian: CMakeFiles/laplacian.dir/rule
+2dfilter: CMakeFiles/2dfilter.dir/rule
 
-.PHONY : laplacian
-
-# clean rule for target.
-CMakeFiles/laplacian.dir/clean:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/clean
-.PHONY : CMakeFiles/laplacian.dir/clean
+.PHONY : 2dfilter
 
 # clean rule for target.
-clean: CMakeFiles/laplacian.dir/clean
+CMakeFiles/2dfilter.dir/clean:
+	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/clean
+.PHONY : CMakeFiles/2dfilter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/2dfilter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/show_happy_fish.dir
+
+# All Build rule for target.
+CMakeFiles/show_happy_fish.dir/all:
+	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/depend
+	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=41,42 "Built target show_happy_fish"
+.PHONY : CMakeFiles/show_happy_fish.dir/all
+
+# Include target in all.
+all: CMakeFiles/show_happy_fish.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/show_happy_fish.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/show_happy_fish.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/show_happy_fish.dir/rule
+
+# Convenience name for target.
+show_happy_fish: CMakeFiles/show_happy_fish.dir/rule
+
+.PHONY : show_happy_fish
+
+# clean rule for target.
+CMakeFiles/show_happy_fish.dir/clean:
+	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/clean
+.PHONY : CMakeFiles/show_happy_fish.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/show_happy_fish.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/erosion_dilation.dir
+
+# All Build rule for target.
+CMakeFiles/erosion_dilation.dir/all:
+	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/depend
+	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=23,24 "Built target erosion_dilation"
+.PHONY : CMakeFiles/erosion_dilation.dir/all
+
+# Include target in all.
+all: CMakeFiles/erosion_dilation.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/erosion_dilation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/erosion_dilation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/erosion_dilation.dir/rule
+
+# Convenience name for target.
+erosion_dilation: CMakeFiles/erosion_dilation.dir/rule
+
+.PHONY : erosion_dilation
+
+# clean rule for target.
+CMakeFiles/erosion_dilation.dir/clean:
+	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/clean
+.PHONY : CMakeFiles/erosion_dilation.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/erosion_dilation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/contour.dir
+
+# All Build rule for target.
+CMakeFiles/contour.dir/all:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/depend
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=17,18 "Built target contour"
+.PHONY : CMakeFiles/contour.dir/all
+
+# Include target in all.
+all: CMakeFiles/contour.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/contour.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/contour.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/contour.dir/rule
+
+# Convenience name for target.
+contour: CMakeFiles/contour.dir/rule
+
+.PHONY : contour
+
+# clean rule for target.
+CMakeFiles/contour.dir/clean:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/clean
+.PHONY : CMakeFiles/contour.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/contour.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pyramid_gaussian.dir
+
+# All Build rule for target.
+CMakeFiles/pyramid_gaussian.dir/all:
+	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/depend
+	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=39,40 "Built target pyramid_gaussian"
+.PHONY : CMakeFiles/pyramid_gaussian.dir/all
+
+# Include target in all.
+all: CMakeFiles/pyramid_gaussian.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pyramid_gaussian.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pyramid_gaussian.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/pyramid_gaussian.dir/rule
+
+# Convenience name for target.
+pyramid_gaussian: CMakeFiles/pyramid_gaussian.dir/rule
+
+.PHONY : pyramid_gaussian
+
+# clean rule for target.
+CMakeFiles/pyramid_gaussian.dir/clean:
+	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/clean
+.PHONY : CMakeFiles/pyramid_gaussian.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pyramid_gaussian.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/canny.dir
+
+# All Build rule for target.
+CMakeFiles/canny.dir/all:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/depend
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=15,16 "Built target canny"
+.PHONY : CMakeFiles/canny.dir/all
+
+# Include target in all.
+all: CMakeFiles/canny.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/canny.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/canny.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/canny.dir/rule
+
+# Convenience name for target.
+canny: CMakeFiles/canny.dir/rule
+
+.PHONY : canny
+
+# clean rule for target.
+CMakeFiles/canny.dir/clean:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/clean
+.PHONY : CMakeFiles/canny.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/canny.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=47,48 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Include target in all.
+all: CMakeFiles/test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/template_match.dir
+
+# All Build rule for target.
+CMakeFiles/template_match.dir/all:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/depend
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=45,46 "Built target template_match"
+.PHONY : CMakeFiles/template_match.dir/all
+
+# Include target in all.
+all: CMakeFiles/template_match.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/template_match.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/template_match.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/template_match.dir/rule
+
+# Convenience name for target.
+template_match: CMakeFiles/template_match.dir/rule
+
+.PHONY : template_match
+
+# clean rule for target.
+CMakeFiles/template_match.dir/clean:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/clean
+.PHONY : CMakeFiles/template_match.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/template_match.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/histogram_equalize.dir
+
+# All Build rule for target.
+CMakeFiles/histogram_equalize.dir/all:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/depend
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=27,28 "Built target histogram_equalize"
+.PHONY : CMakeFiles/histogram_equalize.dir/all
+
+# Include target in all.
+all: CMakeFiles/histogram_equalize.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/histogram_equalize.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/histogram_equalize.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/histogram_equalize.dir/rule
+
+# Convenience name for target.
+histogram_equalize: CMakeFiles/histogram_equalize.dir/rule
+
+.PHONY : histogram_equalize
+
+# clean rule for target.
+CMakeFiles/histogram_equalize.dir/clean:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/clean
+.PHONY : CMakeFiles/histogram_equalize.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/histogram_equalize.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bounding_rotate.dir
+
+# All Build rule for target.
+CMakeFiles/bounding_rotate.dir/all:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/depend
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=11,12 "Built target bounding_rotate"
+.PHONY : CMakeFiles/bounding_rotate.dir/all
+
+# Include target in all.
+all: CMakeFiles/bounding_rotate.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bounding_rotate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bounding_rotate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/bounding_rotate.dir/rule
+
+# Convenience name for target.
+bounding_rotate: CMakeFiles/bounding_rotate.dir/rule
+
+.PHONY : bounding_rotate
+
+# clean rule for target.
+CMakeFiles/bounding_rotate.dir/clean:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/clean
+.PHONY : CMakeFiles/bounding_rotate.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bounding_rotate.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/convex_hull.dir
+
+# All Build rule for target.
+CMakeFiles/convex_hull.dir/all:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/depend
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=19,20 "Built target convex_hull"
+.PHONY : CMakeFiles/convex_hull.dir/all
+
+# Include target in all.
+all: CMakeFiles/convex_hull.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/convex_hull.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/convex_hull.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/convex_hull.dir/rule
+
+# Convenience name for target.
+convex_hull: CMakeFiles/convex_hull.dir/rule
+
+.PHONY : convex_hull
+
+# clean rule for target.
+CMakeFiles/convex_hull.dir/clean:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/clean
+.PHONY : CMakeFiles/convex_hull.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/convex_hull.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bounding_box_circle.dir
+
+# All Build rule for target.
+CMakeFiles/bounding_box_circle.dir/all:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/depend
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erian/opencv_code/DisplayImage/CMakeFiles --progress-num=9,10 "Built target bounding_box_circle"
+.PHONY : CMakeFiles/bounding_box_circle.dir/all
+
+# Include target in all.
+all: CMakeFiles/bounding_box_circle.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bounding_box_circle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bounding_box_circle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erian/opencv_code/DisplayImage/CMakeFiles 0
+.PHONY : CMakeFiles/bounding_box_circle.dir/rule
+
+# Convenience name for target.
+bounding_box_circle: CMakeFiles/bounding_box_circle.dir/rule
+
+.PHONY : bounding_box_circle
+
+# clean rule for target.
+CMakeFiles/bounding_box_circle.dir/clean:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/clean
+.PHONY : CMakeFiles/bounding_box_circle.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bounding_box_circle.dir/clean
 
 .PHONY : clean
 

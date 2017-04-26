@@ -1,0 +1,3 @@
+/home/erian/opencv_code/highgui/CMakeFiles/edit_cache.dir
+/home/erian/opencv_code/highgui/CMakeFiles/rebuild_cache.dir
+/home/erian/opencv_code/highgui/CMakeFiles/trackbar.dir

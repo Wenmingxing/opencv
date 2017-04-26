@@ -1,0 +1,3 @@
+/home/erian/opencv_code/object/CMakeFiles/edit_cache.dir
+/home/erian/opencv_code/object/CMakeFiles/rebuild_cache.dir
+/home/erian/opencv_code/object/CMakeFiles/cascade_classfier.dir

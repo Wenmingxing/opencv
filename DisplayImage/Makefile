@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/erian/opencv_code/DisplayImage
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,134 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named canny
+# Target rules for targets named point_contour
 
 # Build rule for target.
-canny: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 canny
-.PHONY : canny
+point_contour: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 point_contour
+.PHONY : point_contour
 
 # fast build rule for target.
-canny/fast:
-	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
-.PHONY : canny/fast
+point_contour/fast:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/build
+.PHONY : point_contour/fast
 
 #=============================================================================
-# Target rules for targets named pyramid_gaussian
+# Target rules for targets named laplacian
 
 # Build rule for target.
-pyramid_gaussian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pyramid_gaussian
-.PHONY : pyramid_gaussian
+laplacian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 laplacian
+.PHONY : laplacian
 
 # fast build rule for target.
-pyramid_gaussian/fast:
-	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/build
-.PHONY : pyramid_gaussian/fast
-
-#=============================================================================
-# Target rules for targets named erosion_dilation
-
-# Build rule for target.
-erosion_dilation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 erosion_dilation
-.PHONY : erosion_dilation
-
-# fast build rule for target.
-erosion_dilation/fast:
-	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/build
-.PHONY : erosion_dilation/fast
-
-#=============================================================================
-# Target rules for targets named 2dfilter
-
-# Build rule for target.
-2dfilter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2dfilter
-.PHONY : 2dfilter
-
-# fast build rule for target.
-2dfilter/fast:
-	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/build
-.PHONY : 2dfilter/fast
-
-#=============================================================================
-# Target rules for targets named hough_line
-
-# Build rule for target.
-hough_line: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hough_line
-.PHONY : hough_line
-
-# fast build rule for target.
-hough_line/fast:
-	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/build
-.PHONY : hough_line/fast
-
-#=============================================================================
-# Target rules for targets named cvt_gray_image
-
-# Build rule for target.
-cvt_gray_image: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cvt_gray_image
-.PHONY : cvt_gray_image
-
-# fast build rule for target.
-cvt_gray_image/fast:
-	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/build
-.PHONY : cvt_gray_image/fast
-
-#=============================================================================
-# Target rules for targets named show_happy_fish
-
-# Build rule for target.
-show_happy_fish: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 show_happy_fish
-.PHONY : show_happy_fish
-
-# fast build rule for target.
-show_happy_fish/fast:
-	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/build
-.PHONY : show_happy_fish/fast
-
-#=============================================================================
-# Target rules for targets named DisplayImage
-
-# Build rule for target.
-DisplayImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
-.PHONY : DisplayImage
-
-# fast build rule for target.
-DisplayImage/fast:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-.PHONY : DisplayImage/fast
-
-#=============================================================================
-# Target rules for targets named morphology
-
-# Build rule for target.
-morphology: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 morphology
-.PHONY : morphology
-
-# fast build rule for target.
-morphology/fast:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/build
-.PHONY : morphology/fast
-
-#=============================================================================
-# Target rules for targets named threshold
-
-# Build rule for target.
-threshold: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 threshold
-.PHONY : threshold
-
-# fast build rule for target.
-threshold/fast:
-	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
-.PHONY : threshold/fast
+laplacian/fast:
+	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
+.PHONY : laplacian/fast
 
 #=============================================================================
 # Target rules for targets named sobel
@@ -254,17 +150,290 @@ sobel/fast:
 .PHONY : sobel/fast
 
 #=============================================================================
-# Target rules for targets named laplacian
+# Target rules for targets named threshold
 
 # Build rule for target.
-laplacian: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 laplacian
-.PHONY : laplacian
+threshold: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threshold
+.PHONY : threshold
 
 # fast build rule for target.
-laplacian/fast:
-	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/build
-.PHONY : laplacian/fast
+threshold/fast:
+	$(MAKE) -f CMakeFiles/threshold.dir/build.make CMakeFiles/threshold.dir/build
+.PHONY : threshold/fast
+
+#=============================================================================
+# Target rules for targets named backprojection
+
+# Build rule for target.
+backprojection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 backprojection
+.PHONY : backprojection
+
+# fast build rule for target.
+backprojection/fast:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/build
+.PHONY : backprojection/fast
+
+#=============================================================================
+# Target rules for targets named morphology
+
+# Build rule for target.
+morphology: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 morphology
+.PHONY : morphology
+
+# fast build rule for target.
+morphology/fast:
+	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/build
+.PHONY : morphology/fast
+
+#=============================================================================
+# Target rules for targets named cal_hist
+
+# Build rule for target.
+cal_hist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cal_hist
+.PHONY : cal_hist
+
+# fast build rule for target.
+cal_hist/fast:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/build
+.PHONY : cal_hist/fast
+
+#=============================================================================
+# Target rules for targets named histogram_comparison
+
+# Build rule for target.
+histogram_comparison: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 histogram_comparison
+.PHONY : histogram_comparison
+
+# fast build rule for target.
+histogram_comparison/fast:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/build
+.PHONY : histogram_comparison/fast
+
+#=============================================================================
+# Target rules for targets named moments
+
+# Build rule for target.
+moments: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moments
+.PHONY : moments
+
+# fast build rule for target.
+moments/fast:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/build
+.PHONY : moments/fast
+
+#=============================================================================
+# Target rules for targets named DisplayImage
+
+# Build rule for target.
+DisplayImage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DisplayImage
+.PHONY : DisplayImage
+
+# fast build rule for target.
+DisplayImage/fast:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
+.PHONY : DisplayImage/fast
+
+#=============================================================================
+# Target rules for targets named cvt_gray_image
+
+# Build rule for target.
+cvt_gray_image: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cvt_gray_image
+.PHONY : cvt_gray_image
+
+# fast build rule for target.
+cvt_gray_image/fast:
+	$(MAKE) -f CMakeFiles/cvt_gray_image.dir/build.make CMakeFiles/cvt_gray_image.dir/build
+.PHONY : cvt_gray_image/fast
+
+#=============================================================================
+# Target rules for targets named hough_line
+
+# Build rule for target.
+hough_line: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hough_line
+.PHONY : hough_line
+
+# fast build rule for target.
+hough_line/fast:
+	$(MAKE) -f CMakeFiles/hough_line.dir/build.make CMakeFiles/hough_line.dir/build
+.PHONY : hough_line/fast
+
+#=============================================================================
+# Target rules for targets named affine_transform
+
+# Build rule for target.
+affine_transform: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 affine_transform
+.PHONY : affine_transform
+
+# fast build rule for target.
+affine_transform/fast:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/build
+.PHONY : affine_transform/fast
+
+#=============================================================================
+# Target rules for targets named 2dfilter
+
+# Build rule for target.
+2dfilter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2dfilter
+.PHONY : 2dfilter
+
+# fast build rule for target.
+2dfilter/fast:
+	$(MAKE) -f CMakeFiles/2dfilter.dir/build.make CMakeFiles/2dfilter.dir/build
+.PHONY : 2dfilter/fast
+
+#=============================================================================
+# Target rules for targets named show_happy_fish
+
+# Build rule for target.
+show_happy_fish: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 show_happy_fish
+.PHONY : show_happy_fish
+
+# fast build rule for target.
+show_happy_fish/fast:
+	$(MAKE) -f CMakeFiles/show_happy_fish.dir/build.make CMakeFiles/show_happy_fish.dir/build
+.PHONY : show_happy_fish/fast
+
+#=============================================================================
+# Target rules for targets named erosion_dilation
+
+# Build rule for target.
+erosion_dilation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 erosion_dilation
+.PHONY : erosion_dilation
+
+# fast build rule for target.
+erosion_dilation/fast:
+	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/build
+.PHONY : erosion_dilation/fast
+
+#=============================================================================
+# Target rules for targets named contour
+
+# Build rule for target.
+contour: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 contour
+.PHONY : contour
+
+# fast build rule for target.
+contour/fast:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/build
+.PHONY : contour/fast
+
+#=============================================================================
+# Target rules for targets named pyramid_gaussian
+
+# Build rule for target.
+pyramid_gaussian: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pyramid_gaussian
+.PHONY : pyramid_gaussian
+
+# fast build rule for target.
+pyramid_gaussian/fast:
+	$(MAKE) -f CMakeFiles/pyramid_gaussian.dir/build.make CMakeFiles/pyramid_gaussian.dir/build
+.PHONY : pyramid_gaussian/fast
+
+#=============================================================================
+# Target rules for targets named canny
+
+# Build rule for target.
+canny: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 canny
+.PHONY : canny
+
+# fast build rule for target.
+canny/fast:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
+.PHONY : canny/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named template_match
+
+# Build rule for target.
+template_match: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 template_match
+.PHONY : template_match
+
+# fast build rule for target.
+template_match/fast:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/build
+.PHONY : template_match/fast
+
+#=============================================================================
+# Target rules for targets named histogram_equalize
+
+# Build rule for target.
+histogram_equalize: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 histogram_equalize
+.PHONY : histogram_equalize
+
+# fast build rule for target.
+histogram_equalize/fast:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/build
+.PHONY : histogram_equalize/fast
+
+#=============================================================================
+# Target rules for targets named bounding_rotate
+
+# Build rule for target.
+bounding_rotate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bounding_rotate
+.PHONY : bounding_rotate
+
+# fast build rule for target.
+bounding_rotate/fast:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/build
+.PHONY : bounding_rotate/fast
+
+#=============================================================================
+# Target rules for targets named convex_hull
+
+# Build rule for target.
+convex_hull: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convex_hull
+.PHONY : convex_hull
+
+# fast build rule for target.
+convex_hull/fast:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/build
+.PHONY : convex_hull/fast
+
+#=============================================================================
+# Target rules for targets named bounding_box_circle
+
+# Build rule for target.
+bounding_box_circle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bounding_box_circle
+.PHONY : bounding_box_circle
+
+# fast build rule for target.
+bounding_box_circle/fast:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/build
+.PHONY : bounding_box_circle/fast
 
 src/2dfilter.o: src/2dfilter.cpp.o
 
@@ -320,6 +489,141 @@ src/DisplayImage.cpp.s:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/DisplayImage.cpp.s
 .PHONY : src/DisplayImage.cpp.s
 
+src/affine.o: src/affine.cpp.o
+
+.PHONY : src/affine.o
+
+# target to build an object file
+src/affine.cpp.o:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/src/affine.cpp.o
+.PHONY : src/affine.cpp.o
+
+src/affine.i: src/affine.cpp.i
+
+.PHONY : src/affine.i
+
+# target to preprocess a source file
+src/affine.cpp.i:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/src/affine.cpp.i
+.PHONY : src/affine.cpp.i
+
+src/affine.s: src/affine.cpp.s
+
+.PHONY : src/affine.s
+
+# target to generate assembly for a file
+src/affine.cpp.s:
+	$(MAKE) -f CMakeFiles/affine_transform.dir/build.make CMakeFiles/affine_transform.dir/src/affine.cpp.s
+.PHONY : src/affine.cpp.s
+
+src/backprojection.o: src/backprojection.cpp.o
+
+.PHONY : src/backprojection.o
+
+# target to build an object file
+src/backprojection.cpp.o:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/src/backprojection.cpp.o
+.PHONY : src/backprojection.cpp.o
+
+src/backprojection.i: src/backprojection.cpp.i
+
+.PHONY : src/backprojection.i
+
+# target to preprocess a source file
+src/backprojection.cpp.i:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/src/backprojection.cpp.i
+.PHONY : src/backprojection.cpp.i
+
+src/backprojection.s: src/backprojection.cpp.s
+
+.PHONY : src/backprojection.s
+
+# target to generate assembly for a file
+src/backprojection.cpp.s:
+	$(MAKE) -f CMakeFiles/backprojection.dir/build.make CMakeFiles/backprojection.dir/src/backprojection.cpp.s
+.PHONY : src/backprojection.cpp.s
+
+src/bounding_box_circle.o: src/bounding_box_circle.cpp.o
+
+.PHONY : src/bounding_box_circle.o
+
+# target to build an object file
+src/bounding_box_circle.cpp.o:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/src/bounding_box_circle.cpp.o
+.PHONY : src/bounding_box_circle.cpp.o
+
+src/bounding_box_circle.i: src/bounding_box_circle.cpp.i
+
+.PHONY : src/bounding_box_circle.i
+
+# target to preprocess a source file
+src/bounding_box_circle.cpp.i:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/src/bounding_box_circle.cpp.i
+.PHONY : src/bounding_box_circle.cpp.i
+
+src/bounding_box_circle.s: src/bounding_box_circle.cpp.s
+
+.PHONY : src/bounding_box_circle.s
+
+# target to generate assembly for a file
+src/bounding_box_circle.cpp.s:
+	$(MAKE) -f CMakeFiles/bounding_box_circle.dir/build.make CMakeFiles/bounding_box_circle.dir/src/bounding_box_circle.cpp.s
+.PHONY : src/bounding_box_circle.cpp.s
+
+src/bounding_rotate.o: src/bounding_rotate.cpp.o
+
+.PHONY : src/bounding_rotate.o
+
+# target to build an object file
+src/bounding_rotate.cpp.o:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/src/bounding_rotate.cpp.o
+.PHONY : src/bounding_rotate.cpp.o
+
+src/bounding_rotate.i: src/bounding_rotate.cpp.i
+
+.PHONY : src/bounding_rotate.i
+
+# target to preprocess a source file
+src/bounding_rotate.cpp.i:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/src/bounding_rotate.cpp.i
+.PHONY : src/bounding_rotate.cpp.i
+
+src/bounding_rotate.s: src/bounding_rotate.cpp.s
+
+.PHONY : src/bounding_rotate.s
+
+# target to generate assembly for a file
+src/bounding_rotate.cpp.s:
+	$(MAKE) -f CMakeFiles/bounding_rotate.dir/build.make CMakeFiles/bounding_rotate.dir/src/bounding_rotate.cpp.s
+.PHONY : src/bounding_rotate.cpp.s
+
+src/cal_hist.o: src/cal_hist.cpp.o
+
+.PHONY : src/cal_hist.o
+
+# target to build an object file
+src/cal_hist.cpp.o:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/src/cal_hist.cpp.o
+.PHONY : src/cal_hist.cpp.o
+
+src/cal_hist.i: src/cal_hist.cpp.i
+
+.PHONY : src/cal_hist.i
+
+# target to preprocess a source file
+src/cal_hist.cpp.i:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/src/cal_hist.cpp.i
+.PHONY : src/cal_hist.cpp.i
+
+src/cal_hist.s: src/cal_hist.cpp.s
+
+.PHONY : src/cal_hist.s
+
+# target to generate assembly for a file
+src/cal_hist.cpp.s:
+	$(MAKE) -f CMakeFiles/cal_hist.dir/build.make CMakeFiles/cal_hist.dir/src/cal_hist.cpp.s
+.PHONY : src/cal_hist.cpp.s
+
 src/canny.o: src/canny.cpp.o
 
 .PHONY : src/canny.o
@@ -346,6 +650,60 @@ src/canny.s: src/canny.cpp.s
 src/canny.cpp.s:
 	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/src/canny.cpp.s
 .PHONY : src/canny.cpp.s
+
+src/contour.o: src/contour.cpp.o
+
+.PHONY : src/contour.o
+
+# target to build an object file
+src/contour.cpp.o:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/src/contour.cpp.o
+.PHONY : src/contour.cpp.o
+
+src/contour.i: src/contour.cpp.i
+
+.PHONY : src/contour.i
+
+# target to preprocess a source file
+src/contour.cpp.i:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/src/contour.cpp.i
+.PHONY : src/contour.cpp.i
+
+src/contour.s: src/contour.cpp.s
+
+.PHONY : src/contour.s
+
+# target to generate assembly for a file
+src/contour.cpp.s:
+	$(MAKE) -f CMakeFiles/contour.dir/build.make CMakeFiles/contour.dir/src/contour.cpp.s
+.PHONY : src/contour.cpp.s
+
+src/convex_hull.o: src/convex_hull.cpp.o
+
+.PHONY : src/convex_hull.o
+
+# target to build an object file
+src/convex_hull.cpp.o:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/src/convex_hull.cpp.o
+.PHONY : src/convex_hull.cpp.o
+
+src/convex_hull.i: src/convex_hull.cpp.i
+
+.PHONY : src/convex_hull.i
+
+# target to preprocess a source file
+src/convex_hull.cpp.i:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/src/convex_hull.cpp.i
+.PHONY : src/convex_hull.cpp.i
+
+src/convex_hull.s: src/convex_hull.cpp.s
+
+.PHONY : src/convex_hull.s
+
+# target to generate assembly for a file
+src/convex_hull.cpp.s:
+	$(MAKE) -f CMakeFiles/convex_hull.dir/build.make CMakeFiles/convex_hull.dir/src/convex_hull.cpp.s
+.PHONY : src/convex_hull.cpp.s
 
 src/cvt_gray_image.o: src/cvt_gray_image.cpp.o
 
@@ -401,6 +759,60 @@ src/erosion_dilation.cpp.s:
 	$(MAKE) -f CMakeFiles/erosion_dilation.dir/build.make CMakeFiles/erosion_dilation.dir/src/erosion_dilation.cpp.s
 .PHONY : src/erosion_dilation.cpp.s
 
+src/histogram_comparison.o: src/histogram_comparison.cpp.o
+
+.PHONY : src/histogram_comparison.o
+
+# target to build an object file
+src/histogram_comparison.cpp.o:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/src/histogram_comparison.cpp.o
+.PHONY : src/histogram_comparison.cpp.o
+
+src/histogram_comparison.i: src/histogram_comparison.cpp.i
+
+.PHONY : src/histogram_comparison.i
+
+# target to preprocess a source file
+src/histogram_comparison.cpp.i:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/src/histogram_comparison.cpp.i
+.PHONY : src/histogram_comparison.cpp.i
+
+src/histogram_comparison.s: src/histogram_comparison.cpp.s
+
+.PHONY : src/histogram_comparison.s
+
+# target to generate assembly for a file
+src/histogram_comparison.cpp.s:
+	$(MAKE) -f CMakeFiles/histogram_comparison.dir/build.make CMakeFiles/histogram_comparison.dir/src/histogram_comparison.cpp.s
+.PHONY : src/histogram_comparison.cpp.s
+
+src/histogram_equalize.o: src/histogram_equalize.cpp.o
+
+.PHONY : src/histogram_equalize.o
+
+# target to build an object file
+src/histogram_equalize.cpp.o:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/src/histogram_equalize.cpp.o
+.PHONY : src/histogram_equalize.cpp.o
+
+src/histogram_equalize.i: src/histogram_equalize.cpp.i
+
+.PHONY : src/histogram_equalize.i
+
+# target to preprocess a source file
+src/histogram_equalize.cpp.i:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/src/histogram_equalize.cpp.i
+.PHONY : src/histogram_equalize.cpp.i
+
+src/histogram_equalize.s: src/histogram_equalize.cpp.s
+
+.PHONY : src/histogram_equalize.s
+
+# target to generate assembly for a file
+src/histogram_equalize.cpp.s:
+	$(MAKE) -f CMakeFiles/histogram_equalize.dir/build.make CMakeFiles/histogram_equalize.dir/src/histogram_equalize.cpp.s
+.PHONY : src/histogram_equalize.cpp.s
+
 src/hough_line.o: src/hough_line.cpp.o
 
 .PHONY : src/hough_line.o
@@ -455,6 +867,33 @@ src/laplacian.cpp.s:
 	$(MAKE) -f CMakeFiles/laplacian.dir/build.make CMakeFiles/laplacian.dir/src/laplacian.cpp.s
 .PHONY : src/laplacian.cpp.s
 
+src/moments.o: src/moments.cpp.o
+
+.PHONY : src/moments.o
+
+# target to build an object file
+src/moments.cpp.o:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/src/moments.cpp.o
+.PHONY : src/moments.cpp.o
+
+src/moments.i: src/moments.cpp.i
+
+.PHONY : src/moments.i
+
+# target to preprocess a source file
+src/moments.cpp.i:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/src/moments.cpp.i
+.PHONY : src/moments.cpp.i
+
+src/moments.s: src/moments.cpp.s
+
+.PHONY : src/moments.s
+
+# target to generate assembly for a file
+src/moments.cpp.s:
+	$(MAKE) -f CMakeFiles/moments.dir/build.make CMakeFiles/moments.dir/src/moments.cpp.s
+.PHONY : src/moments.cpp.s
+
 src/morphology.o: src/morphology.cpp.o
 
 .PHONY : src/morphology.o
@@ -481,6 +920,33 @@ src/morphology.s: src/morphology.cpp.s
 src/morphology.cpp.s:
 	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/src/morphology.cpp.s
 .PHONY : src/morphology.cpp.s
+
+src/point_contour.o: src/point_contour.cpp.o
+
+.PHONY : src/point_contour.o
+
+# target to build an object file
+src/point_contour.cpp.o:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/src/point_contour.cpp.o
+.PHONY : src/point_contour.cpp.o
+
+src/point_contour.i: src/point_contour.cpp.i
+
+.PHONY : src/point_contour.i
+
+# target to preprocess a source file
+src/point_contour.cpp.i:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/src/point_contour.cpp.i
+.PHONY : src/point_contour.cpp.i
+
+src/point_contour.s: src/point_contour.cpp.s
+
+.PHONY : src/point_contour.s
+
+# target to generate assembly for a file
+src/point_contour.cpp.s:
+	$(MAKE) -f CMakeFiles/point_contour.dir/build.make CMakeFiles/point_contour.dir/src/point_contour.cpp.s
+.PHONY : src/point_contour.cpp.s
 
 src/pyramid_gaussian.o: src/pyramid_gaussian.cpp.o
 
@@ -563,6 +1029,60 @@ src/sobel.cpp.s:
 	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/src/sobel.cpp.s
 .PHONY : src/sobel.cpp.s
 
+src/template_match.o: src/template_match.cpp.o
+
+.PHONY : src/template_match.o
+
+# target to build an object file
+src/template_match.cpp.o:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/src/template_match.cpp.o
+.PHONY : src/template_match.cpp.o
+
+src/template_match.i: src/template_match.cpp.i
+
+.PHONY : src/template_match.i
+
+# target to preprocess a source file
+src/template_match.cpp.i:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/src/template_match.cpp.i
+.PHONY : src/template_match.cpp.i
+
+src/template_match.s: src/template_match.cpp.s
+
+.PHONY : src/template_match.s
+
+# target to generate assembly for a file
+src/template_match.cpp.s:
+	$(MAKE) -f CMakeFiles/template_match.dir/build.make CMakeFiles/template_match.dir/src/template_match.cpp.s
+.PHONY : src/template_match.cpp.s
+
+src/test.o: src/test.cpp.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
 src/threshold.o: src/threshold.cpp.o
 
 .PHONY : src/threshold.o
@@ -596,44 +1116,90 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... canny"
-	@echo "... rebuild_cache"
-	@echo "... pyramid_gaussian"
-	@echo "... erosion_dilation"
-	@echo "... 2dfilter"
-	@echo "... hough_line"
-	@echo "... cvt_gray_image"
-	@echo "... show_happy_fish"
-	@echo "... DisplayImage"
-	@echo "... morphology"
-	@echo "... threshold"
-	@echo "... sobel"
+	@echo "... point_contour"
 	@echo "... laplacian"
+	@echo "... sobel"
+	@echo "... threshold"
+	@echo "... backprojection"
+	@echo "... morphology"
+	@echo "... cal_hist"
+	@echo "... histogram_comparison"
+	@echo "... moments"
+	@echo "... DisplayImage"
+	@echo "... cvt_gray_image"
+	@echo "... hough_line"
+	@echo "... affine_transform"
+	@echo "... 2dfilter"
+	@echo "... show_happy_fish"
+	@echo "... erosion_dilation"
+	@echo "... contour"
+	@echo "... pyramid_gaussian"
+	@echo "... canny"
+	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... template_match"
+	@echo "... histogram_equalize"
+	@echo "... bounding_rotate"
+	@echo "... convex_hull"
+	@echo "... edit_cache"
+	@echo "... bounding_box_circle"
 	@echo "... src/2dfilter.o"
 	@echo "... src/2dfilter.i"
 	@echo "... src/2dfilter.s"
 	@echo "... src/DisplayImage.o"
 	@echo "... src/DisplayImage.i"
 	@echo "... src/DisplayImage.s"
+	@echo "... src/affine.o"
+	@echo "... src/affine.i"
+	@echo "... src/affine.s"
+	@echo "... src/backprojection.o"
+	@echo "... src/backprojection.i"
+	@echo "... src/backprojection.s"
+	@echo "... src/bounding_box_circle.o"
+	@echo "... src/bounding_box_circle.i"
+	@echo "... src/bounding_box_circle.s"
+	@echo "... src/bounding_rotate.o"
+	@echo "... src/bounding_rotate.i"
+	@echo "... src/bounding_rotate.s"
+	@echo "... src/cal_hist.o"
+	@echo "... src/cal_hist.i"
+	@echo "... src/cal_hist.s"
 	@echo "... src/canny.o"
 	@echo "... src/canny.i"
 	@echo "... src/canny.s"
+	@echo "... src/contour.o"
+	@echo "... src/contour.i"
+	@echo "... src/contour.s"
+	@echo "... src/convex_hull.o"
+	@echo "... src/convex_hull.i"
+	@echo "... src/convex_hull.s"
 	@echo "... src/cvt_gray_image.o"
 	@echo "... src/cvt_gray_image.i"
 	@echo "... src/cvt_gray_image.s"
 	@echo "... src/erosion_dilation.o"
 	@echo "... src/erosion_dilation.i"
 	@echo "... src/erosion_dilation.s"
+	@echo "... src/histogram_comparison.o"
+	@echo "... src/histogram_comparison.i"
+	@echo "... src/histogram_comparison.s"
+	@echo "... src/histogram_equalize.o"
+	@echo "... src/histogram_equalize.i"
+	@echo "... src/histogram_equalize.s"
 	@echo "... src/hough_line.o"
 	@echo "... src/hough_line.i"
 	@echo "... src/hough_line.s"
 	@echo "... src/laplacian.o"
 	@echo "... src/laplacian.i"
 	@echo "... src/laplacian.s"
+	@echo "... src/moments.o"
+	@echo "... src/moments.i"
+	@echo "... src/moments.s"
 	@echo "... src/morphology.o"
 	@echo "... src/morphology.i"
 	@echo "... src/morphology.s"
+	@echo "... src/point_contour.o"
+	@echo "... src/point_contour.i"
+	@echo "... src/point_contour.s"
 	@echo "... src/pyramid_gaussian.o"
 	@echo "... src/pyramid_gaussian.i"
 	@echo "... src/pyramid_gaussian.s"
@@ -643,6 +1209,12 @@ help:
 	@echo "... src/sobel.o"
 	@echo "... src/sobel.i"
 	@echo "... src/sobel.s"
+	@echo "... src/template_match.o"
+	@echo "... src/template_match.i"
+	@echo "... src/template_match.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 	@echo "... src/threshold.o"
 	@echo "... src/threshold.i"
 	@echo "... src/threshold.s"
